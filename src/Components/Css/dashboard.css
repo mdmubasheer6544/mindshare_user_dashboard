@@ -1,0 +1,65 @@
+/* frst row */
+.fa-bell{
+    box-shadow: 2px 4px 6px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    
+}
+.fa-envelope{
+    box-shadow: 2px 4px 6px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+}
+.mullist{
+    border: none;
+    outline: none;
+   box-shadow: 2px 4px 6px rgb(0 0 0 / 20%);;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+
+
+
+/* right col ul list */
+.nav-link{
+
+}
+.text-light:hover{
+  
+}
+/* table */
+.btn-custom{
+    background: #3679a3 !important;
+}
+.col-md-10{
+    background-color: #f2f7fa;
+}
+table .trAllUser{
+
+ 
+ box-shadow: 0 0 4px rgba(0,0,0,0.5);
+ border-radius: 15px;
+ padding:20px 0px;
+ 
+
+ 
+   
+}
+
+.employe-img{
+    border-radius: 10px;
+    
+   
+}
+@media (max-width : 500px){
+    .col-md-2{
+      text-align: center;
+    }
+    .tableProfile{
+         width: 500px !important;
+    }
+}
+
+.view-btn{
+    margin: 0 !important;
+    padding: 5px !important;
+}

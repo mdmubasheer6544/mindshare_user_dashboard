@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import './Components/Css/dashboard.css'
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import '../node_modules/mdbreact/dist/css/mdb.css';
+import '../node_modules/bootstrap-css-only/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/js/bootstrap';
 
+import {  Container, Row, Col } from "react-bootstrap";
+import Sidebar from "./Components/SideBar/Sidebar";
+import Dashboard from "./Components/Main/Dashboard";
+import {BrowserRouter} from 'react-router-dom'
+import Landing from "./Landing";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Landing/>
+    </BrowserRouter>
   );
 }
 
